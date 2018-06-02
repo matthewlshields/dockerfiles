@@ -6,6 +6,8 @@ LABEL maintainer.email="geek@shields.cc"
 RUN apt-get update \
     && apt-get install -y \
         apt-transport-https \
+        software-properties-common \
+        python-software-properties \
         gnupg \
         curl \
         ca-certificates \
